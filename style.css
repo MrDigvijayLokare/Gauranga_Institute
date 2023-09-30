@@ -503,3 +503,33 @@ h3{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+  
+
+ /* course page  */
+
+.cource-col ul {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.cource-col ul li a {
+    color: #080707;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.cource-col ul li ::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.cource-col ul li:hover ::after {
+    width: 100%;
+}
