@@ -117,6 +117,10 @@ nav .bx {
 
     }
 
+    .sub-header h1{
+          font-size: 30px;
+    }
+
     .nav-links {
         position: fixed;
         background: #f44336;
@@ -533,3 +537,5 @@ h3{
 .cource-col ul li:hover ::after {
     width: 100%;
 }
+
+
